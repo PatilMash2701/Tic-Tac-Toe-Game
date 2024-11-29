@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stone-paper-scissor-game</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="body2">
+    <h1>Stone Paper Scissors</h1>
+    <div class="symbol">
+        <div class="sym" id="rock" >
+            <img src="rock.png"/>
+        </div>
+        <div class="sym" id="paper"  >
+            <img src="paper.png"/>
+        </div>
+        <div  class="sym" id="scissors">
+            <img src="scissor.png"/>
+        </div>
+        
+    </div>
+    <div class="score-board">
+       <div class="score">
+         <p id="user-score">0</p> <!--if you have to make changes then you should give it id or class for class.innertext -->
+        <p>You</p>
+       </div>
+       <div class="score">
+        <p id="comp-score">0</p>
+        <p>Computer</p>
+       </div>
+    </div>
+    <div class="compc">
+        <p id="compch">computer choose :</p>
+    </div>
+    <div class="msg-container">
+        <p id="msg">play your move</p>
+    </div>
+    </div>
+    <script src="app2.js"></script>
+</body>
+
+</html>
